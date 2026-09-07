@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Abdul Basit — Portfolio"
+description = "A personal portfolio for Abdul Basit, showcasing his software engineering experience, skills, selected work, and ways to get in touch."
+version = "1.0.0"
+id = "artifacts/abdul-basit-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20205
+
+[services.development]
+run = "pnpm --filter @workspace/abdul-basit-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/abdul-basit-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/abdul-basit-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20205"
+BASE_PATH = "/"
