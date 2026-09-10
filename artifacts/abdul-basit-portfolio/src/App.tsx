@@ -500,7 +500,7 @@ function Home() {
                 <a href="tel:+923465668188" className="contact-link" data-testid="link-contact-phone">
                   <Phone size={18} /> +92 346 5668188 <ArrowUpRight size={16} className="ml-auto" />
                 </a>
-                <a href="https://linkedin.com/in/abdulbasitshaikh" target="_blank" rel="noreferrer" className="contact-link" data-testid="link-contact-linkedin">
+                <a href="https://www.linkedin.com/in/abdul-basit-shaikh-2203a42b7" target="_blank" rel="noreferrer" className="contact-link" data-testid="link-contact-linkedin">
                   <Linkedin size={18} /> LinkedIn <ExternalLink size={16} className="ml-auto" />
                 </a>
                 <a href={resumePdf} download="Abdul-Basit-Shaikh-Resume.pdf" className="button-primary mt-3 w-fit !bg-[#d9ff52] !text-[#19313c] !shadow-[4px_4px_0_#f58268]" data-testid="link-download-resume-contact">
@@ -515,7 +515,7 @@ function Home() {
               <a href="https://abdulbasitshaikh.github.io/abdul-basit-portfolio" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-[#2459e8]" data-testid="link-portfolio-website">
                 Portfolio <ExternalLink size={12} />
               </a>
-              <a href="https://linkedin.com/in/abdulbasitshaikh" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-[#2459e8]" data-testid="link-footer-linkedin">
+              <a href="https://www.linkedin.com/in/abdul-basit-shaikh-2203a42b7" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-[#2459e8]" data-testid="link-footer-linkedin">
                 LinkedIn <ExternalLink size={12} />
               </a>
               <a href="#top" className="inline-flex items-center gap-1 hover:text-[#2459e8]" data-testid="link-back-to-top">
